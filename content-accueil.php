@@ -1,6 +1,5 @@
 <section>
 
-    
     <?php
         the_content();
         $args = array(
@@ -28,9 +27,8 @@
         endif;
 
     ?>
-
     <aside>
-                    
+    
     </aside>
 
     <article>
@@ -42,8 +40,6 @@
     <div class="partenaires">
         <h2>Nos Partenaires</h2>
         <?php echo do_shortcode('[logoshowcase cat_id="3" slides_column="3" dots="false" arrows="false"]'); ?>
-
     </div> <!-- /.partenaires -->
 
-    
 </section>
